@@ -1,4 +1,4 @@
-# SetText
+# DisplayPoints
 
 ![interface](resources/displaypoints.png)
 
