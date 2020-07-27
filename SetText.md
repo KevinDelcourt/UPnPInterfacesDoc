@@ -21,7 +21,8 @@ public static void main(String[] args) {
     Map<String, ServiceId> requiredServices = new HashMap<>();
     requiredServices.put(SET_TEXT, new UDAServiceId(SET_TEXT));
 
-    LocalService<DependencyInjectionService> dependencyInjectionLocalService = ServiceFactory.makeDependencyInjectionService(requiredServices);
+    LocalService<DependencyInjectionService> dependencyInjectionLocalService = 
+            ServiceFactory.makeDependencyInjectionService(requiredServices);
 
     dependencyInjectionService = dependencyInjectionLocalService.getManager().getImplementation();
 
