@@ -16,3 +16,6 @@ Below is a list of the interfaces :
 - [GetBatteryLevel](GetBatteryLevel.md)
 - [SetLocation](SetLocation.md)
 - [SetText](SetText.md)
+
+### Acknowledgment
+This work is part of the AILP (Assistance InteLligente et proactive en environnement Professionnel) project, which is supported by the French region Occitanie and the operational program FEDER-FSE Midi-Pyrénées et Garonne.
